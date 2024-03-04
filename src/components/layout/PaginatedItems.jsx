@@ -21,10 +21,9 @@ function Items({ currentItems }) {
               productName={item.productName}
               productPrice={item.productPrice}
             >
-              {item.productInfo &&
-                item.productInfo.map((item) => (
-                  <Listitem>{item.info}</Listitem>
-                ))}
+              {item.productInfo.map((item) => (
+                <Listitem>{item.info}</Listitem>
+              ))}
             </ProductCard>
           </div>
         ))}
