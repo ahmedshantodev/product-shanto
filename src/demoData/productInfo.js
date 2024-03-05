@@ -1,7 +1,6 @@
-import second from '../../public/image/laptop-2.webp'
 let productDetails = [
   {
-    productName: "HP 250 G8 Core i3 11th Gen 15.6 4GB RAM 1T",
+    productName: "HP 250 G8 Core i3 11th Gen 15.6 4GB RAM 1T ssdfasdfasfasdf lj;lj;lk ;alsdjf;a s",
     productImage: "../../public/image/laptop-1.webp",
     productPrice: "55,000$",
     productInfo: [

@@ -7,9 +7,9 @@ import Button from "../layout/Button";
 import { FaShoppingCart } from "react-icons/fa";
 import { CiSquarePlus } from "react-icons/ci";
 
-const ProductCard = ({ productImage, productName, productPrice , children }) => {
+const ProductCard = ({ productImage, productName, productPrice , children , className }) => {
   return (
-    <div className="bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded p-5 mb-4">
+    <div className={`${className} bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded p-5 mb-4`}>
       <Image
         imageLink={productImage}
         altText={"product-image"}

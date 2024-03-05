@@ -4,22 +4,22 @@ import Flex from "../layout/Flex";
 
 const Navbar = () => {
   let NameMenu = [
-    { id: 0, name: "desktop" },
-    { id: 1, name: "laptop" },
-    { id: 3, name: "components" },
-    { id: 4, name: "monitor" },
-    { id: 5, name: "ups" },
-    { id: 6, name: "phone" },
-    { id: 7, name: "tablet" },
-    { id: 8, name: "office equipment" },
-    { id: 9, name: "camera" },
-    { id: 10, name: "security" },
-    { id: 11, name: "networking" },
-    { id: 12, name: "software" },
-    { id: 13, name: "server & storage" },
-    { id: 14, name: "accressories" },
-    { id: 15, name: "gedget" },
-    { id: 16, name: "gaming" },
+    { href: "#", name: "desktop" },
+    { href: "#", name: "laptop" },
+    { href: "#", name: "components" },
+    { href: "#", name: "monitor" },
+    { href: "#", name: "ups" },
+    { href: "#", name: "phone" },
+    { href: "#", name: "tablet" },
+    { href: "#", name: "office equipment" },
+    { href: "#", name: "camera" },
+    { href: "#", name: "security" },
+    { href: "#", name: "networking" },
+    { href: "#", name: "software" },
+    { href: "#", name: "server & storage" },
+    { href: "#", name: "accressories" },
+    { href: "#", name: "gedget" },
+    { href: "#", name: "gaming" },
   ];
   return (
     <nav className="py-5 bg-white border-[2px] sticky top-0  border-gray-200">

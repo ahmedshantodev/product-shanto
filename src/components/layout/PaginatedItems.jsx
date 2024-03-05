@@ -15,17 +15,16 @@ function Items({ currentItems }) {
     <>
       {currentItems &&
         currentItems.map((item) => (
-          <div className="w-[24%]">
-            <ProductCard
-              productImage={item.productImage}
-              productName={item.productName}
-              productPrice={item.productPrice}
-            >
-              {item.productInfo.map((item) => (
-                <Listitem>{item.info}</Listitem>
-              ))}
-            </ProductCard>
-          </div>
+          <ProductCard
+            className="w-[24%]"
+            productImage={item.productImage}
+            productName={item.productName}
+            productPrice={item.productPrice}
+          >
+            {item.productInfo.map((item) => (
+              <Listitem>{item.info}</Listitem>
+            ))}
+          </ProductCard>
         ))}
     </>
   );
@@ -62,7 +61,7 @@ function PaginatedItems({ itemsPerPage }) {
           pageCount={pageCount}
           renderOnZeroPageCount={null}
           containerClassName="pagination flex items-center gap-x-2.5"
-          activeLinkClassName="bg-[#ef4a23] px-3 py-1 rounded text-white"
+          activeLinkClassName="!bg-[#ef4a23] px-3 py-1 rounded text-white"
           pageLinkClassName="px-3 py-1 rounded bg-white hover:bg-cus-red hover:text-white"
         />
         <Paragraph
