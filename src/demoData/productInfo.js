@@ -1,6 +1,6 @@
 let productDetails = [
   {
-    productName: "HP 250 G8 Core i3 11th Gen 15.6 4GB RAM 1T ssdfasdfasfasdf lj;lj;lk ;alsdjf;a s",
+    productName: "HP 250 G8 Core i3 11th Gen 15.6 4GB RAM 1T",
     productImage: "../../public/image/laptop-1.webp",
     productPrice: "55,000$",
     productInfo: [
